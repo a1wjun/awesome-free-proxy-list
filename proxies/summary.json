@@ -38,26 +38,28 @@
   "by_tier": {
     "all": {
       "fast": 16,
-      "medium": 69,
-      "slow": 30
+      "medium": 71,
+      "slow": 28
     },
     "http": {
       "fast": 15,
-      "medium": 11,
-      "slow": 7
+      "medium": 13,
+      "slow": 5
     },
     "https": {
-      "medium": 13,
-      "slow": 2
+      "fast": 2,
+      "medium": 12,
+      "slow": 3
     },
     "socks4": {
       "fast": 1,
-      "medium": 45,
-      "slow": 21
+      "medium": 44,
+      "slow": 22
     },
     "socks5": {
-      "medium": 25,
-      "slow": 7
+      "fast": 1,
+      "medium": 27,
+      "slow": 4
     }
   },
   "config": {
@@ -75,30 +77,30 @@
   },
   "counts": {
     "all": {
-      "candidates": 137,
-      "top_trusted": 13,
+      "candidates": 132,
+      "top_trusted": 12,
       "working": 115
     },
     "http": {
-      "candidates": 35,
+      "candidates": 33,
       "working": 33
     },
     "https": {
-      "candidates": 35,
-      "working": 15
+      "candidates": 33,
+      "working": 17
     },
     "socks4": {
       "candidates": 67,
       "working": 67
     },
     "socks5": {
-      "candidates": 35,
+      "candidates": 32,
       "working": 32
     }
   },
   "data_freshness": {
     "update_schedule": "daily at 00:15 UTC (workflow_dispatch to force)",
-    "updated_utc": "2026-08-30T16:47:52+00:00",
+    "updated_utc": "2026-08-30T21:14:30+00:00",
     "warning": "Free proxies expire in minutes-to-hours; verify before use."
   },
   "history": {
@@ -133,10 +135,10 @@
   "sources": {
     "count": 4,
     "per_source_candidates": {
-      "http": 35,
-      "https": 18,
+      "http": 33,
+      "https": 15,
       "socks4": 67,
-      "socks5": 35
+      "socks5": 32
     }
   },
   "top_fastest": [
@@ -148,13 +150,13 @@
       "country_code": "US",
       "ip": "159.65.230.46",
       "ip_type": "datacenter",
-      "latency_ms": 31.9,
+      "latency_ms": 38.8,
       "port": 8888,
       "source": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
       "streak": 7,
       "tier": "fast",
       "type": "http",
-      "updated_utc": "2026-08-30T16:47:52+00:00"
+      "updated_utc": "2026-08-30T21:14:30+00:00"
     },
     {
       "anonymity": "elite",
@@ -164,13 +166,29 @@
       "country_code": "US",
       "ip": "142.93.202.130",
       "ip_type": "datacenter",
-      "latency_ms": 35.4,
+      "latency_ms": 43.2,
       "port": 3128,
       "source": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
       "streak": 13,
       "tier": "fast",
       "type": "http",
-      "updated_utc": "2026-08-30T16:47:52+00:00"
+      "updated_utc": "2026-08-30T21:14:30+00:00"
+    },
+    {
+      "anonymity": "elite",
+      "asn": 7018,
+      "asn_org": "AT&T Enterprises, LLC",
+      "country": "United States",
+      "country_code": "US",
+      "ip": "12.50.107.221",
+      "ip_type": "residential",
+      "latency_ms": 159.8,
+      "port": 80,
+      "source": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
+      "streak": 4,
+      "tier": "fast",
+      "type": "http",
+      "updated_utc": "2026-08-30T21:14:30+00:00"
     },
     {
       "anonymity": "unknown",
@@ -180,13 +198,13 @@
       "country_code": "US",
       "ip": "3.16.21.42",
       "ip_type": "datacenter",
-      "latency_ms": 182.1,
+      "latency_ms": 176.5,
       "port": 3128,
       "source": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt",
       "streak": 4,
       "tier": "fast",
       "type": "socks4",
-      "updated_utc": "2026-08-30T16:47:52+00:00"
+      "updated_utc": "2026-08-30T21:14:30+00:00"
     },
     {
       "anonymity": "unknown",
@@ -196,13 +214,13 @@
       "country_code": "DE",
       "ip": "116.203.27.109",
       "ip_type": "datacenter",
-      "latency_ms": 200.0,
+      "latency_ms": 200.1,
       "port": 80,
       "source": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
       "streak": 52,
       "tier": "fast",
       "type": "http",
-      "updated_utc": "2026-08-30T16:47:52+00:00"
+      "updated_utc": "2026-08-30T21:14:30+00:00"
     },
     {
       "anonymity": "elite",
@@ -212,13 +230,13 @@
       "country_code": "PL",
       "ip": "178.212.144.7",
       "ip_type": "unknown",
-      "latency_ms": 214.1,
+      "latency_ms": 230.3,
       "port": 80,
       "source": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
       "streak": 45,
       "tier": "fast",
       "type": "http",
-      "updated_utc": "2026-08-30T16:47:52+00:00"
+      "updated_utc": "2026-08-30T21:14:30+00:00"
     },
     {
       "anonymity": "elite",
@@ -228,13 +246,13 @@
       "country_code": "DE",
       "ip": "103.237.102.191",
       "ip_type": "unknown",
-      "latency_ms": 297.6,
+      "latency_ms": 285.9,
       "port": 11111,
       "source": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
       "streak": 6,
       "tier": "fast",
       "type": "http",
-      "updated_utc": "2026-08-30T16:47:52+00:00"
+      "updated_utc": "2026-08-30T21:14:30+00:00"
     },
     {
       "anonymity": "elite",
@@ -244,45 +262,13 @@
       "country_code": "CO",
       "ip": "181.78.23.187",
       "ip_type": "unknown",
-      "latency_ms": 299.5,
+      "latency_ms": 292.3,
       "port": 999,
       "source": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
       "streak": 5,
       "tier": "fast",
       "type": "http",
-      "updated_utc": "2026-08-30T16:47:52+00:00"
-    },
-    {
-      "anonymity": "elite",
-      "asn": 52468,
-      "asn_org": "UFINET PANAMA S.A.",
-      "country": "Colombia",
-      "country_code": "CO",
-      "ip": "181.78.74.253",
-      "ip_type": "unknown",
-      "latency_ms": 313.7,
-      "port": 999,
-      "source": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
-      "streak": 12,
-      "tier": "fast",
-      "type": "http",
-      "updated_utc": "2026-08-30T16:47:52+00:00"
-    },
-    {
-      "anonymity": "elite",
-      "asn": 27947,
-      "asn_org": "Telconet S.A",
-      "country": "Ecuador",
-      "country_code": "EC",
-      "ip": "181.39.25.196",
-      "ip_type": "unknown",
-      "latency_ms": 318.3,
-      "port": 8118,
-      "source": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
-      "streak": 14,
-      "tier": "fast",
-      "type": "http",
-      "updated_utc": "2026-08-30T16:47:52+00:00"
+      "updated_utc": "2026-08-30T21:14:30+00:00"
     },
     {
       "anonymity": "elite",
@@ -292,14 +278,30 @@
       "country_code": "CO",
       "ip": "181.78.74.252",
       "ip_type": "unknown",
-      "latency_ms": 342.9,
+      "latency_ms": 308.6,
       "port": 999,
       "source": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
       "streak": 12,
       "tier": "fast",
       "type": "http",
-      "updated_utc": "2026-08-30T16:47:52+00:00"
+      "updated_utc": "2026-08-30T21:14:30+00:00"
+    },
+    {
+      "anonymity": "elite",
+      "asn": 52468,
+      "asn_org": "UFINET PANAMA S.A.",
+      "country": "Colombia",
+      "country_code": "CO",
+      "ip": "181.78.74.253",
+      "ip_type": "unknown",
+      "latency_ms": 312.7,
+      "port": 999,
+      "source": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
+      "streak": 12,
+      "tier": "fast",
+      "type": "http",
+      "updated_utc": "2026-08-30T21:14:30+00:00"
     }
   ],
-  "updated_utc": "2026-08-30T16:47:52+00:00"
+  "updated_utc": "2026-08-30T21:14:30+00:00"
 }
